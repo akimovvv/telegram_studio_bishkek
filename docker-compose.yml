@@ -9,7 +9,7 @@ services:
     ports:
     - 5432:5432
     env_file:
-      - ".env.dist"
+      - ".env"
 
 
 
@@ -20,4 +20,4 @@ services:
     command: python app.py
     restart: always
     env_file:
-      - ".env.dist"
+      - ".env"
