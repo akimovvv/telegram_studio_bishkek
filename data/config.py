@@ -17,6 +17,6 @@ PGPASSWORD = env.str("PG_PASSWORD")
 POSTGRES_URI = f"postgresql://{PGUSER}:{PGPASSWORD}@{PGHOST}/{DATABASE}"
 # f"postgresql://{PGUSER}:{PGPASSWORD}@{PGHOST}/{DATABASE}"
 
-I18N_DOMAIN = 'bishkek_telegram_bot'
-BASE_DIR = Path(__file__).parent.parent
-LOCALES_DIR = BASE_DIR / 'locales'
+# I18N_DOMAIN = 'bishkek_telegram_bot'
+# BASE_DIR = Path(__file__).parent.parent
+# LOCALES_DIR = BASE_DIR / 'locales'
