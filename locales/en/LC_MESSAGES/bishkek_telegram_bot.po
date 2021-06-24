@@ -1,0 +1,524 @@
+# English translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-06-20 17:30+0600\n"
+"PO-Revision-Date: 2021-06-20 16:58+0600\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: handlers/users/admin.py:19
+msgid "Да"
+msgstr "Yes"
+
+#: handlers/users/admin.py:20
+msgid "нет"
+msgstr "no"
+
+#: handlers/users/admin.py:23
+msgid "Вставить фото?"
+msgstr "Insert a photo?"
+
+#: handlers/users/admin.py:31
+msgid "Отправьте фото в виде изображения, а не документа!"
+msgstr "Send the photo as an image, not a document!"
+
+#: handlers/users/admin.py:34 handlers/users/admin.py:44
+msgid "Пришлите текст рассылки"
+msgstr "Send the text of the mailing list"
+
+#: handlers/users/admin.py:62 handlers/users/admin.py:82
+msgid ""
+"Пользователям на каком языке разослать это сообщение?\n"
+"\n"
+"Текст:\n"
+"{text}"
+msgstr ""
+"What language should I send this message to users in?\n"
+"\n"
+"Text:\n"
+"{text}"
+
+#: handlers/users/admin.py:104 handlers/users/admin.py:123
+msgid "Рассылка выполнена."
+msgstr "The mailing list is completed."
+
+#: handlers/users/general_menu.py:17
+msgid "Услуги  "
+msgstr "Services  "
+
+#: handlers/users/general_menu.py:20
+msgid "О нас  "
+msgstr "About us  "
+
+#: handlers/users/general_menu.py:23 handlers/users/general_menu.py:42
+#: handlers/users/general_menu.py:169
+msgid "Главное меню"
+msgstr "Main Menu"
+
+#: handlers/users/general_menu.py:31
+msgid "Базовый"
+msgstr "Basic"
+
+#: handlers/users/general_menu.py:32
+msgid "Средний"
+msgstr "Average"
+
+#: handlers/users/general_menu.py:35
+msgid "Индивидуальный"
+msgstr "Individual"
+
+#: handlers/users/general_menu.py:38
+msgid "Другие виды услуг"
+msgstr "Other types of services"
+
+#: handlers/users/general_menu.py:45
+msgid ""
+"Telegram Studio Bishkek предоставляет комплексную услугу разработки "
+"функциональных ботов для Telegram, также у нас можно купить бота "
+"телеграмм.\n"
+"\n"
+"Мессенджер Telegram лавинообразно набирает популярность по всему миру. "
+"Пользователи отдают ему предпочтение из-за безопасности, анонимности, "
+"удобства, а также возможности использования функциональных чат ботов."
+msgstr ""
+"Telegram Studio Bishkek provides a comprehensive service for the "
+"development of functional bots for Telegram, you can also buy a bot "
+"telegram.\n"
+"\n"
+"Telegram messenger is gaining popularity all over the world. Users prefer"
+" it because of its security, anonymity, convenience, and the ability to "
+"use functional chatbots."
+
+#: handlers/users/general_menu.py:58
+msgid ""
+"<b>Telegram Бот с базовым функционалом</b>\n"
+"\n"
+"<b>Функции:</b>\n"
+"Многоязычность: 2 языка на выбор.\n"
+"Рассылка: Пользователям Бота.\n"
+"Данные о пользователей: кол-во + одна функция на выбор\n"
+"\n"
+"<b>Пример базовых Ботов</b>\n"
+"Бот визитка\n"
+"Бот для сбора заявок\n"
+"Бот для анкетирования и тд.\n"
+"\n"
+"<b>Узнать подробнее:</b>\n"
+"Можете оставить заявку или позвонить|написать"
+msgstr ""
+"<b>Telegram Bot with basic functionality</b>\n"
+"\n"
+"<b>Functions:</b>\n"
+"Multilingualism: 2 languages to choose from.\n"
+"Mailing list: Bot users.\n"
+"User data: number + one function to choose from\n"
+"\n"
+"<b>Example of basic Bots</b>\n"
+"Business card Bot\n"
+"Application collection bot\n"
+"Questionnaire bot, etc.\n"
+"\n"
+"<b>Learn more:</b>\n"
+"You can leave a request or call|write"
+
+#: handlers/users/general_menu.py:66 handlers/users/general_menu.py:89
+#: handlers/users/general_menu.py:114 handlers/users/general_menu.py:133
+#: handlers/users/general_menu.py:165
+msgid "Контакты"
+msgstr "Contacts"
+
+#: handlers/users/general_menu.py:67 handlers/users/general_menu.py:90
+#: handlers/users/general_menu.py:115 handlers/users/general_menu.py:134
+msgid "Оставить заявку"
+msgstr "Put your bid"
+
+#: handlers/users/general_menu.py:70 handlers/users/general_menu.py:93
+#: handlers/users/general_menu.py:118 handlers/users/general_menu.py:137
+#: handlers/users/general_menu.py:199 handlers/users/general_menu.py:220
+#: handlers/users/general_menu.py:239 handlers/users/general_menu.py:261
+msgid "Если дочитал нажми сюда  "
+msgstr "If you have finished reading it click here  "
+
+#: handlers/users/general_menu.py:82
+msgid ""
+"<b>Так же мы можем разработать вам других ботов</b>\n"
+"\n"
+"<b>Например:</b>\n"
+"Бот для рассылки (WhatsApp, Telegram, Instagram, Facebook и тд.)\n"
+"Бот для раскрутки TikTok,Instagram(автоподписка, лайки, отписка и тд.)\n"
+"Парсеры данных(с сайтов и тд.)\n"
+"\n"
+"<b>Узнать подробнее:</b>\n"
+"Можете оставить заявку или позвонить|написать"
+msgstr ""
+"<b>We can also develop other bots</b>\n"
+"\n"
+"<b>Example:</b>\n"
+"The bot to send (WhatsApp, Telegram, Instagram, Facebook, etc.)\n"
+"A bot for the promotion of TikTok,Instagram(following, likes, evasion, "
+"etc.)\n"
+"Parsers data(sites, etc.)\n"
+"\n"
+"<b>Learn more:</b>\n"
+"You can leave a request or call|write"
+
+#: handlers/users/general_menu.py:105
+msgid ""
+"<b>Telegram Бот со средним функционалом</b>\n"
+"\n"
+"<b>Функции:</b>\n"
+"Многоязычность: 3 языка на выбор.\n"
+"Сбор данных(анкетирование) и регистрация пользователей.\n"
+"Рассылка: Пользователям Бота.\n"
+"Данные о пользователей: кол-во + две функции на выбор\n"
+"\n"
+"<b>Пример средних Ботов</b>\n"
+"Бот магазин с хорошим функционалом\n"
+"Бот технической поддержки\n"
+"Бот приёма заказов с обширным функционалом и тд.\n"
+"\n"
+"<b>Узнать подробнее:</b>\n"
+"Можете оставить заявку или позвонить|написать"
+msgstr ""
+"<b>Telegram Bot with average functionality</b>\n"
+"\n"
+"<b>Functions:</b>\n"
+"Multilingualism: 3 languages to choose from.\n"
+"Data collection (survey) and user registration.\n"
+"Mailing list: To Bot Users.\n"
+"User data: number + two functions to choose from\n"
+"\n"
+"<b>Example of medium-sized Bots</b>\n"
+"Bot shop with good functionality\n"
+"Technical support bot\n"
+"Order acceptance bot with extensive functionality, etc.\n"
+"\n"
+"<b>Learn more:</b>\n"
+"You can leave a request or call|write"
+
+#: handlers/users/general_menu.py:127
+msgid ""
+"<b>Telegram Бот с индивидуальным функционалом</b>\n"
+"\n"
+"<b>Функции:</b>\n"
+"Обговаривается индивидуально. Мы разрабатываем проект используя лучшие "
+"технологии на рынке.\n"
+"\n"
+"<b>Узнать подробнее:</b>\n"
+"Можете оставить заявку или позвонить|написать"
+msgstr ""
+"<b>Telegram Bot with individual functionality</b>\n"
+"\n"
+"<b>Functions:</b>\n"
+"Is negotiated individually. We develop the project using the best "
+"technologies on the market.\n"
+"\n"
+"<b>Learn more:</b>\n"
+"You can leave a request or call|write"
+
+#: handlers/users/general_menu.py:150
+msgid "Что такое телеграм бот?"
+msgstr "What is a Telegram bot?"
+
+#: handlers/users/general_menu.py:153
+msgid "Почему именно мы?"
+msgstr "Why us?"
+
+#: handlers/users/general_menu.py:156
+msgid "Почему стоит заказать телеграм бота?"
+msgstr "Why should I order a telegram bot?"
+
+#: handlers/users/general_menu.py:159
+msgid "Частые вопросы..."
+msgstr "Frequent questions..."
+
+#: handlers/users/general_menu.py:162
+msgid "Наши проекты"
+msgstr "Our projects"
+
+#: handlers/users/general_menu.py:166
+msgid "Способы оплаты"
+msgstr "Payment methods"
+
+#: handlers/users/general_menu.py:172
+msgid ""
+"Telegram Studio Bishkek предоставляет комплексную услугу разработки "
+"функциональных ботов для Telegram, также у нас можно купить бота "
+"телеграмм. Мессенджер Telegram лавинообразно набирает популярность по "
+"всему миру. Пользователи отдают ему предпочтение из-за безопасности, "
+"анонимности, удобства, а также возможности использования функциональных "
+"чат ботов."
+msgstr ""
+"Telegram Studio Bishkek provides a comprehensive service for the "
+"development of functional bots for Telegram, you can also buy a bot "
+"telegram. Telegram messenger is gaining popularity in an avalanche all "
+"over the world. Users prefer it because of its security, anonymity, "
+"convenience, and the ability to use functional chatbots."
+
+#: handlers/users/general_menu.py:186
+msgid ""
+"<b>Что такое чат бот?</b>\n"
+"\n"
+"Чат боты — это программы цель которых автоматизировать процессы и "
+"минимизировать участие людей. Они выполняют рутинные задачи практически "
+"любой сложности: поиск и выдача информации, ответы на вопросы клиентов, "
+"построение потока работы (workflow) — цепочки действий в зависимости от "
+"действия клиента или процессов внутри компании. По сути, возможности чат "
+"бота ограничены возможностями языка, на котором он создается, а это "
+"решение практически любых задач.\n"
+"\n"
+"\n"
+"Функционал Telegram (каналы, боты и чаты) способен вывести ваш бизнес на "
+"новый уровень.\n"
+"\n"
+"\n"
+"Владельцы бизнеса сегодня активно интегрируют в свои процессы чат боты "
+"telegram, ведь такой бот может не только автоматизировать процессы, "
+"исключить рутину, ожидания, но и значительно увеличить объем продаж "
+"товаров или услуг."
+msgstr ""
+"<b>What is a chatbot?</b>\n"
+"\n"
+"Chatbots are programs that aim to automate processes and minimize human "
+"participation. They perform routine tasks of almost any complexity: "
+"finding and issuing information, answering customer questions, building a"
+" workflow-a chain of actions depending on the actions of the client or "
+"processes within the company. In fact, the capabilities of the chat bot "
+"are limited by the capabilities of the language in which it is created, "
+"and this is the solution to almost any problem.\n"
+"\n"
+"\n"
+"Telegram functionality (channels, bots, and chats) it is able to take "
+"your business to a new level.\n"
+"\n"
+"\n"
+"Business owners today actively integrate chatbots into their processes "
+"telegram, because such a bot can not only automate processes, eliminate "
+"routine, expectations, but also significantly increase sales of goods or "
+"services."
+
+#: handlers/users/general_menu.py:211
+msgid ""
+"<b>Почему мы лучшие в сфере создания чат ботов:</b>\n"
+"\n"
+"Мы не используем посреднических сервисов, наши боты пишутся на python "
+"3.9, и библиотекой aiogram который обращается напрямую к официальному API"
+" telegram. Таким образом, бот (файлы) принадлежит вам и нет рисков, что "
+"сервис посредник закроется и бот перестанет работать или изменятся "
+"условия его использования. Концепт-решение бота имеет сложную логику. Мы "
+"составляем схему бота и пишем техническое задание, согласовываем все "
+"пункты с клиентом и учитываем все детали. Таким образом, получается "
+"полноценное техническое задание."
+msgstr ""
+"<b>Why we are the best in the field of creating chatbots:</b>\n"
+"\n"
+"We do not use intermediary services, our bots are written in python 3.9, "
+"and the aiogram library that accesses the official telegram API directly."
+" Thus, the bot (files) belongs to you and there is no risk that the "
+"intermediary service will close and the bot will stop working orthe terms"
+" of its use will change. The bot's concept solution has a complex logic. "
+"We draw up the scheme of the bot and write the terms of reference, "
+"coordinate all the points with the client and take into account all the "
+"details. Thus, it turns out a full-fledged technical task."
+
+#: handlers/users/general_menu.py:233
+msgid ""
+"<b>Почему стоит заказать телеграм бота?</b>\n"
+"\n"
+"бюджет разработки чат бота telegram в разы меньше разработки мобильного "
+"приложения;чат бот не нужно скачивать, а это экономия времени и "
+"ресурсов;чат бот работает «здесь и сейчас»."
+msgstr ""
+"<b>Why should I order a telegram bot?</b>\n"
+"\n"
+"the development budget of the telegram chat bot is several times less "
+"than the development of the mobile application; the chat bot does not "
+"need to be downloaded, and this saves time andresources;the chat bot "
+"works «here and now»."
+
+#: handlers/users/general_menu.py:252
+msgid ""
+"<b>Частые вопросы и ответы по телеграм боту</b>\n"
+"\n"
+"Как происходит заказ бота? После того, как вы подробно описали "
+"необходимые функции мы формируем цену и срок разработки. Если срок и "
+"стоимость подходит, заключаем соглашение, выставляем счет на аванс в "
+"размере 50% от стоимости и приступаем к созданию технического задания и "
+"дальнейшего создания бота. По окончанию работы демонстрируем бота (также "
+"демонстрируем в процессе), выставляем счет на остаток суммы, после "
+"получения оплаты передаем файлы бота."
+msgstr ""
+"<b>Frequent questions and answers on telegram bot</b>\n"
+"\n"
+"How does the bot order work? After you have described in detail the "
+"necessary functions, we form the price and the development period. If the"
+" deadline and the price are suitable, we conclude an agreement, issue an "
+"invoice for an advance payment in the amount of 50% of the cost and "
+"proceed to create the technical task and further creation of the bot. At "
+"the end of the work, we demonstrate the bot (also we demonstrate in the "
+"process), issue an invoice for the remaining amount, and after receiving "
+"payment, we transfer the bot files."
+
+#: handlers/users/general_menu.py:282 handlers/users/general_menu.py:345
+msgid "Главное меню /menu"
+msgstr "Main menu /menu"
+
+#: handlers/users/general_menu.py:295 handlers/users/general_menu.py:358
+#: handlers/users/general_menu.py:385 handlers/users/general_menu.py:399
+#: handlers/users/general_menu.py:413 handlers/users/general_menu.py:427
+#: handlers/users/general_menu.py:441 handlers/users/general_menu.py:457
+msgid "Назад"
+msgstr "Back"
+
+#: handlers/users/general_menu.py:298 handlers/users/general_menu.py:361
+msgid ""
+"Telegram Studio Bishkek\n"
+"\n"
+"Разработка бота\n"
+"вашей мечты!\n"
+msgstr ""
+"Telegram Studio Bishkek\n"
+"\n"
+"Bot development\n"
+" of your dreams!\n"
+
+#: handlers/users/general_menu.py:299 handlers/users/general_menu.py:362
+msgid "Нажмите как вы хотите связаться"
+msgstr "Click how you want to contact us"
+
+#: handlers/users/general_menu.py:320
+msgid "Поделиться контактом"
+msgstr "Share a contact"
+
+#: handlers/users/general_menu.py:323
+msgid "Вы даёте согласие на обработку введённых вами данных?"
+msgstr "Do you consent to the processing of the data you have entered?"
+
+#: handlers/users/general_menu.py:324
+msgid "Поделитесь контактом чтоб с вами могли связаться"
+msgstr "Share your contact so that you can be contacted"
+
+#: handlers/users/general_menu.py:334
+msgid "Напишите описание бота которого вы хотите"
+msgstr "Write a description of the bot you want"
+
+#: handlers/users/general_menu.py:345
+msgid ""
+"Спасибо за ваш интерес!\n"
+"Как обработают вашу заявку вам напишут или позвонят"
+msgstr ""
+"Thank you for your interest!\n"
+"How your application will be processed you will be written or called"
+
+#: handlers/users/general_menu.py:372
+msgid "Visa"
+msgstr "Visa"
+
+#: handlers/users/general_menu.py:373
+msgid "DemirBank"
+msgstr "DemirBank"
+
+#: handlers/users/general_menu.py:378
+msgid "Мой O"
+msgstr "Мой O"
+
+#: handlers/users/general_menu.py:379
+msgid "Элсом"
+msgstr "Элсом"
+
+#: handlers/users/general_menu.py:388
+msgid "<b>Способы оплаты</b>"
+msgstr "<b>Payment Methods</b>"
+
+#: handlers/users/general_menu.py:455
+msgid "YouTube"
+msgstr "YouTube"
+
+#: handlers/users/general_menu.py:460
+msgid "Наши проекты и так же примеры и варианты выполнения"
+msgstr "Our projects, as well as examples and implementation options"
+
+#: handlers/users/help.py:14
+msgid ""
+"Список команд:\n"
+"/start - Начать диалог\n"
+"/menu - Главное меню\n"
+"/tell - Рассылка\n"
+"/language - Смена языка\n"
+"/help - Получить справку"
+msgstr ""
+"List of commands:\n"
+"/start-Start a dialog\n"
+"/menu-Main menu\n"
+"/tell-Mailing\n"
+"/language-Change the language\n"
+"/help-Get help"
+
+#: handlers/users/help.py:22
+msgid ""
+"Список команд:\n"
+"/start - Начать диалог\n"
+"/menu - Главное меню\n"
+"/language - Смена языка\n"
+"/help - Получить справку"
+msgstr ""
+"List of commands:\n"
+"/start-Start dialog\n"
+"/menu-Main menu\n"
+"/language-Change the language\n"
+"/help-Get help"
+
+#: handlers/users/start.py:19 handlers/users/start.py:23
+msgid "Привет, {user}!"
+msgstr "Hello, {user}!"
+
+#: handlers/users/start.py:33
+msgid "Выберите язык!"
+msgstr "Choose a language!"
+
+#: handlers/users/start.py:121
+msgid "Женский "
+msgstr "Female "
+
+#: handlers/users/start.py:122
+msgid "Мужской "
+msgstr "Male "
+
+#: handlers/users/start.py:126
+msgid "Введите ваш пол"
+msgstr "Enter your gender"
+
+#: handlers/users/start.py:129
+msgid "Некорректно ввели Ваш возраст, пожалуйста введите снова..."
+msgstr "You entered your age incorrectly, please enter it again..."
+
+#: handlers/users/start.py:146 handlers/users/start.py:161
+msgid "Да "
+msgstr "Yes "
+
+#: handlers/users/start.py:151 handlers/users/start.py:166
+msgid "Вы даёте согласие для обработки ваших данных?"
+msgstr "Do you consent to the processing of your data?"
+
+#: handlers/users/start.py:182
+msgid ""
+"Спасибо за заполненную анкету!\n"
+"Вся введённая строго конфиденциальна и используется для улучшения наших "
+"продуктов и сервиса"
+msgstr ""
+"Thank you for filling out the form!\n"
+" All information entered is strictly confidential and is used to improve "
+"our products and service"
+

@@ -1,0 +1,21 @@
+Название - bishkek_telegram_bot, можете сменить на любое другое
+
+Запускаем первый раз
+1. Вытаскиваем тексты из файлов (он сам находит)
+pybabel extract . -o locales/bishkek_telegram_bot.pot
+2. Создаем папку для перевода на английский
+pybabel init -i locales/bishkek_telegram_bot.pot -d locales -D bishkek_telegram_bot -l en
+3. То же, на немецкий
+pybabel init -i locales/bishkek_telegram_bot.pot -d locales -D bishkek_telegram_bot -l de
+4. То же, на украинский
+    pybabel init -i locales/bishkek_telegram_bot.pot -d locales -D bishkek_telegram_bot -l ru
+5. Переводим, а потом собираем переводы
+pybabel compile -d locales -D bishkek_telegram_bot
+
+
+Обновляем переводы
+1. Вытаскиваем тексты из файлов, Добавляем текст в переведенные версии
+pybabel extract . -o locales/bishkek_telegram_bot.pot
+pybabel update -d locales -D bishkek_telegram_bot -i locales/bishkek_telegram_bot.pot
+3. Вручную делаем переводы, а потом Собираем
+pybabel compile -d locales -D bishkek_telegram_bot
