@@ -179,7 +179,7 @@ async def set_agreement(call: CallbackQuery, state: FSMContext):
     age = data.get("age")
     gender = data.get("gender")
     await db.update_user(id=u_id, age=age, gender=gender, agreement=answer)
-    await call.message.answer(text=_("Спасибо за заполненную анкету!\nВся введённая строго конфиденциальна и используется для улучшения наших продуктов и сервиса"))
+    await call.message.answer(text=_("Спасибо за заполненную анкету!\nВся введённая вами информация строго конфиденциальна и используется для улучшения наших продуктов и сервиса.\nГлавное меню /menu"))
     await state.finish()
 
 
