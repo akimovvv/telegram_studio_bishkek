@@ -1,6 +1,6 @@
 from aiogram.dispatcher import FSMContext
 
-from loader import dp, _
+from loader import dp
 from aiogram import types
 import emoji
 from aiogram.types import ReplyKeyboardRemove, KeyboardButton, ReplyKeyboardMarkup, InlineKeyboardMarkup, \
